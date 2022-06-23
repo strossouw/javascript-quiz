@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">  
-        <script defer src="script.js"></script>
-        <title>Stephanie's Javascript Quiz</title>  
-    </head>    
 
-    <body>
-        <div class="quiz-box">
-            <div class="question-container" class="hidden">
-                <div class="question"> Question </div>
-                <div class="answer-btn">
-                    <button class="btn"> Answer1 </button>
-                    <button class="btn"> Answer2 </button>
-                    <button class="btn"> Answer3 </button>
-                    <button class="btn"> Answer4 </button>
-                </div>
-            </div>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
 
+<body>
+    <nav>
+        <div><a href ="highscores.html">View Highscores</a></div>
+        <div id = "timerDisplay"></div>
+    </nav>
+  <section>
+      <div id="container">
+          <div id="counter"></div>
+          <div id="box">
+              <h1>Quiz App</h1>
+              <p  id = "lead"><br   />
+                This quiz will test your javascript skills. 
+                It is timed but answer carefully, a wrong answer will cause your time to run faster.
+              </p>
+              <button class="start-button">Start Quiz</button>
+          </div>
+          
+      </div>
+      
+    </section>
+
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
 
 </html>
