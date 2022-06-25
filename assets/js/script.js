@@ -172,10 +172,11 @@ function check (event) {
              allScores.push(user);
              var scoreNew = JSON.stringify(allScores);
              localStorage.setItem("allScores", scoreNew);
-             window.location.replace("./highscores.html");
+             window.location.replace(".highscores.html");
              
          }
      });
     
+     
     
  }

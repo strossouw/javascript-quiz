@@ -1,5 +1,5 @@
 
-var ulScore= document.querySelector(".highscore");
+var ulScore= document.querySelector(".highscores");
 var clear = document.querySelector(".clear");
 var restart = document.querySelector(".restart");
 
