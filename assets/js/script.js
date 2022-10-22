@@ -112,8 +112,6 @@ function startQuiz() {
   startQuizDiv.style.display = "none";
   generateQuizQuestion();
 
-  //Timer
-
   timerInterval = setInterval(function () {
     timeLeft--;
     quizTimer.textContent = "Time left: " + timeLeft;
@@ -211,7 +209,7 @@ function checkAnswer(answer) {
     currentQuestionIndex++;
     generateQuizQuestion();
 
-    //display in the results div that the answer is correct.
+    
   } else if (
     answer !== correct &&
     currentQuestionIndex !== finalQuestionIndex
@@ -220,7 +218,7 @@ function checkAnswer(answer) {
     currentQuestionIndex++;
     generateQuizQuestion();
 
-    //display in the results div that the answer is wrong.
+
   } else {
     showScore();
   }
